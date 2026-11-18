@@ -1,0 +1,15 @@
+{
+	"name": "adf-cars-shru",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "21793d99-5215-4ee0-ac7a-78b87bd6bb75",
+		"tenantId": "038f6c6f-60df-437e-acd7-6871b584af2e"
+	}
+}
