@@ -1,0 +1,14 @@
+{
+	"name": "la_databricks",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405616623720061.1.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/cf72524d-337e-4edf-9fb1-f54c708427b1/resourceGroups/RG_Azure_Car_Project/providers/Microsoft.Databricks/workspaces/carsdatabricks",
+			"existingClusterId": "serveless"
+		}
+	}
+}
